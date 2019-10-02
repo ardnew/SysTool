@@ -6,9 +6,9 @@ uses
   // Delphi/Windows
   Windows, Menus, Forms, Classes, Controls, SysUtils,
   // (J)VCL
-  JvMenus, JvComponentBase, JvTrayIcon,
+  JvMenus, JvComponentBase, JvTrayIcon, JvAppInst,
   // SysTool
-  Global, JvAppInst
+  Global
   ;
 
 type
@@ -237,7 +237,7 @@ begin
     JvTrayIcon.BalloonHint(
       {   Title = } BalloonTitle,
       { Message = } BalloonMessage,
-      {   Style = } BalloonType, // btNone btError btInfo btWarning
+      {   Style = } BalloonType // btNone btError btInfo btWarning
       {   Delay = 5000, }
       {  Cancel = FALSE }
     );
@@ -291,7 +291,7 @@ begin
     JvTrayIcon.BalloonHint(
       {   Title = } BalloonTitle,
       { Message = } BalloonMessage,
-      {   Style = } BalloonType, // btNone btError btInfo btWarning
+      {   Style = } BalloonType // btNone btError btInfo btWarning
       {   Delay = 5000, }
       {  Cancel = FALSE }
     );

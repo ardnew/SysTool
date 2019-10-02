@@ -2,12 +2,14 @@ object FormBitPattern: TFormBitPattern
   AlignWithMargins = True
   Left = 0
   Top = 150
+  AutoSize = True
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Bit Pattern'
-  ClientHeight = 779
-  ClientWidth = 727
+  ClientHeight = 776
+  ClientWidth = 721
   Color = clBtnFace
+  Constraints.MaxWidth = 735
   DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -28,7 +30,7 @@ object FormBitPattern: TFormBitPattern
     AlignWithMargins = True
     Left = 3
     Top = 24
-    Width = 721
+    Width = 715
     Height = 233
     Margins.Top = 0
     Align = alTop
@@ -40,12 +42,12 @@ object FormBitPattern: TFormBitPattern
     Font.Style = [fsBold, fsUnderline]
     ParentFont = False
     TabOrder = 0
-    ExplicitTop = 9
+    ExplicitWidth = 721
     object Panel1: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 46
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -58,6 +60,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
+      ExplicitWidth = 711
       object Label1: TLabel
         AlignWithMargins = True
         Left = 1
@@ -245,7 +248,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 69
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -258,6 +261,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 1
+      ExplicitWidth = 711
       object Label6: TLabel
         AlignWithMargins = True
         Left = 1
@@ -447,7 +451,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 92
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -460,6 +464,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 2
+      ExplicitWidth = 711
       object Label11: TLabel
         AlignWithMargins = True
         Left = 1
@@ -647,7 +652,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 115
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -660,6 +665,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 3
+      ExplicitWidth = 711
       object Label16: TLabel
         AlignWithMargins = True
         Left = 1
@@ -849,7 +855,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 138
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -862,6 +868,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 4
+      ExplicitWidth = 711
       object Label21: TLabel
         AlignWithMargins = True
         Left = 1
@@ -1049,7 +1056,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 161
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -1062,6 +1069,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 5
+      ExplicitWidth = 711
       object Label26: TLabel
         AlignWithMargins = True
         Left = 1
@@ -1251,7 +1259,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 184
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -1264,6 +1272,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 6
+      ExplicitWidth = 711
       object Label31: TLabel
         AlignWithMargins = True
         Left = 1
@@ -1451,7 +1460,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 207
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -1464,6 +1473,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 7
+      ExplicitWidth = 711
       object Label36: TLabel
         AlignWithMargins = True
         Left = 1
@@ -1653,7 +1663,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 19
-      Width = 711
+      Width = 705
       Height = 27
       Margins.Bottom = 0
       Align = alTop
@@ -1664,6 +1674,7 @@ object FormBitPattern: TFormBitPattern
       Font.Style = []
       ParentFont = False
       TabOrder = 8
+      ExplicitWidth = 711
       object JvLabel1: TJvLabel
         AlignWithMargins = True
         Left = 657
@@ -1913,7 +1924,7 @@ object FormBitPattern: TFormBitPattern
     AlignWithMargins = True
     Left = 3
     Top = 269
-    Width = 721
+    Width = 715
     Height = 95
     Margins.Top = 9
     Align = alTop
@@ -1925,12 +1936,12 @@ object FormBitPattern: TFormBitPattern
     Font.Style = [fsBold, fsUnderline]
     ParentFont = False
     TabOrder = 1
-    ExplicitTop = 254
+    ExplicitWidth = 721
     object Panel18: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 46
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -1943,6 +1954,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
+      ExplicitWidth = 711
       object Label49: TLabel
         AlignWithMargins = True
         Left = 1
@@ -2059,7 +2071,6 @@ object FormBitPattern: TFormBitPattern
         Font.Name = 'Source Code Pro'
         Font.Style = []
         MaxLength = 24
-        NumbersOnly = True
         ParentFont = False
         TabOrder = 0
         Text = '18446744073709551615'
@@ -2146,7 +2157,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 69
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -2159,6 +2170,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 1
+      ExplicitWidth = 711
       object Label55: TLabel
         AlignWithMargins = True
         Left = 1
@@ -2275,7 +2287,6 @@ object FormBitPattern: TFormBitPattern
         Font.Name = 'Source Code Pro'
         Font.Style = []
         MaxLength = 24
-        NumbersOnly = True
         ParentFont = False
         TabOrder = 0
         Text = '18446744073709551615'
@@ -2362,7 +2373,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 19
-      Width = 711
+      Width = 705
       Height = 27
       Margins.Bottom = 0
       Align = alTop
@@ -2373,6 +2384,7 @@ object FormBitPattern: TFormBitPattern
       Font.Style = []
       ParentFont = False
       TabOrder = 2
+      ExplicitWidth = 711
       object JvLabel9: TJvLabel
         AlignWithMargins = True
         Left = 494
@@ -2648,7 +2660,7 @@ object FormBitPattern: TFormBitPattern
     AlignWithMargins = True
     Left = 3
     Top = 376
-    Width = 721
+    Width = 715
     Height = 96
     Margins.Top = 9
     Align = alTop
@@ -2664,7 +2676,7 @@ object FormBitPattern: TFormBitPattern
     ParentFont = False
     TabOrder = 2
     OnMouseLeave = GroupBoxBitLayoutMouseLeave
-    ExplicitTop = 361
+    ExplicitWidth = 721
     object Panel22: TPanel
       AlignWithMargins = True
       Left = 628
@@ -4253,7 +4265,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 71
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -4267,6 +4279,7 @@ object FormBitPattern: TFormBitPattern
       ParentFont = False
       TabOrder = 16
       OnMouseUp = BitPanelMouseUp
+      ExplicitWidth = 711
       object Label79: TLabel
         AlignWithMargins = True
         Left = 1
@@ -4400,7 +4413,7 @@ object FormBitPattern: TFormBitPattern
     AlignWithMargins = True
     Left = 3
     Top = 484
-    Width = 721
+    Width = 715
     Height = 289
     Margins.Top = 9
     Align = alTop
@@ -4412,11 +4425,12 @@ object FormBitPattern: TFormBitPattern
     Font.Style = [fsBold, fsUnderline]
     ParentFont = False
     TabOrder = 3
+    ExplicitWidth = 721
     object Panel41: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 168
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -4429,6 +4443,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 0
+      ExplicitWidth = 711
       object Label71: TLabel
         AlignWithMargins = True
         Left = 1
@@ -4549,14 +4564,13 @@ object FormBitPattern: TFormBitPattern
         TabOrder = 2
         Text = '1 123 123 123'
         OnClick = EditBaseConversionClick
-        ExplicitLeft = 335
       end
     end
     object Panel42: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 214
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -4569,6 +4583,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 1
+      ExplicitWidth = 711
       object Label72: TLabel
         AlignWithMargins = True
         Left = 1
@@ -4689,14 +4704,13 @@ object FormBitPattern: TFormBitPattern
         TabOrder = 2
         Text = '12 123 123 123 123 123 123'
         OnClick = EditBaseConversionClick
-        ExplicitLeft = 335
       end
     end
     object Panel43: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 19
-      Width = 711
+      Width = 705
       Height = 27
       Margins.Bottom = 0
       Align = alTop
@@ -4707,6 +4721,7 @@ object FormBitPattern: TFormBitPattern
       Font.Style = []
       ParentFont = False
       TabOrder = 2
+      ExplicitWidth = 711
       object JvLabel33: TJvLabel
         AlignWithMargins = True
         Left = 1
@@ -4790,7 +4805,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 46
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -4803,6 +4818,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 3
+      ExplicitWidth = 711
       object Label73: TLabel
         AlignWithMargins = True
         Left = 1
@@ -4869,7 +4885,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 92
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -4882,6 +4898,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 4
+      ExplicitWidth = 711
       object Label74: TLabel
         AlignWithMargins = True
         Left = 1
@@ -4950,7 +4967,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 191
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -4963,6 +4980,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 5
+      ExplicitWidth = 711
       object Label75: TLabel
         AlignWithMargins = True
         Left = 1
@@ -5083,14 +5101,13 @@ object FormBitPattern: TFormBitPattern
         TabOrder = 2
         Text = '1 123 123 123'
         OnClick = EditBaseConversionClick
-        ExplicitLeft = 335
       end
     end
     object Panel49: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 237
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -5103,6 +5120,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 6
+      ExplicitWidth = 711
       object Label76: TLabel
         AlignWithMargins = True
         Left = 1
@@ -5223,14 +5241,13 @@ object FormBitPattern: TFormBitPattern
         TabOrder = 2
         Text = '12 123 123 123 123 123 123'
         OnClick = EditBaseConversionClick
-        ExplicitLeft = 335
       end
     end
     object Panel51: TPanel
       AlignWithMargins = True
       Left = 5
       Top = 69
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -5243,6 +5260,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 7
+      ExplicitWidth = 711
       object Label77: TLabel
         AlignWithMargins = True
         Left = 1
@@ -5309,7 +5327,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 115
-      Width = 711
+      Width = 705
       Height = 23
       Margins.Top = 0
       Margins.Bottom = 0
@@ -5322,6 +5340,7 @@ object FormBitPattern: TFormBitPattern
       ParentBackground = False
       ParentFont = False
       TabOrder = 8
+      ExplicitWidth = 711
       object Label78: TLabel
         AlignWithMargins = True
         Left = 1
@@ -5390,7 +5409,7 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 141
-      Width = 711
+      Width = 705
       Height = 27
       Margins.Bottom = 0
       Align = alTop
@@ -5401,6 +5420,7 @@ object FormBitPattern: TFormBitPattern
       Font.Style = []
       ParentFont = False
       TabOrder = 9
+      ExplicitWidth = 711
       object JvLabel21: TJvLabel
         AlignWithMargins = True
         Left = 1
@@ -5536,18 +5556,17 @@ object FormBitPattern: TFormBitPattern
       AlignWithMargins = True
       Left = 5
       Top = 260
-      Width = 711
+      Width = 705
       Height = 25
       Margins.Top = 0
       Margins.Bottom = 0
       Align = alTop
       BevelOuter = bvNone
       TabOrder = 10
-      ExplicitLeft = 2
-      ExplicitWidth = 717
+      ExplicitWidth = 711
       object CheckBoxGroupBases: TCheckBox
         AlignWithMargins = True
-        Left = 584
+        Left = 578
         Top = 0
         Width = 117
         Height = 25
@@ -5565,6 +5584,7 @@ object FormBitPattern: TFormBitPattern
         ParentFont = False
         TabOrder = 0
         OnClick = CheckBoxGroupBasesClick
+        ExplicitLeft = 584
       end
     end
   end
@@ -5572,7 +5592,7 @@ object FormBitPattern: TFormBitPattern
     AlignWithMargins = True
     Left = 0
     Top = 0
-    Width = 727
+    Width = 721
     Height = 24
     Margins.Left = 0
     Margins.Top = 0
@@ -5588,10 +5608,10 @@ object FormBitPattern: TFormBitPattern
     Padding.Top = 7
     ParentFont = False
     TabOrder = 4
-    ExplicitTop = 6
+    ExplicitWidth = 727
     object SpeedButtonHelp: TSpeedButton
       AlignWithMargins = True
-      Left = 651
+      Left = 645
       Top = 7
       Width = 64
       Height = 17

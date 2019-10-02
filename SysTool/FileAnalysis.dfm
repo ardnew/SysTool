@@ -2,6 +2,7 @@ object FormFileAnalysis: TFormFileAnalysis
   AlignWithMargins = True
   Left = 0
   Top = 0
+  AutoSize = True
   Caption = 'File Analysis'
   ClientHeight = 617
   ClientWidth = 890
@@ -142,11 +143,6 @@ object FormFileAnalysis: TFormFileAnalysis
         Margins.Top = 0
         Margins.Right = 0
         Margins.Bottom = 0
-        HotTrackFont.Charset = DEFAULT_CHARSET
-        HotTrackFont.Color = clWindowText
-        HotTrackFont.Height = -11
-        HotTrackFont.Name = 'Tahoma'
-        HotTrackFont.Style = []
         Align = alTop
         BevelOuter = bvNone
         Color = clWindow
@@ -204,11 +200,6 @@ object FormFileAnalysis: TFormFileAnalysis
           Height = 249
           Margins.Left = 0
           Margins.Top = 5
-          HotTrackFont.Charset = DEFAULT_CHARSET
-          HotTrackFont.Color = clWindowText
-          HotTrackFont.Height = -11
-          HotTrackFont.Name = 'Tahoma'
-          HotTrackFont.Style = []
           Align = alLeft
           BevelOuter = bvNone
           Color = clWindow
@@ -574,11 +565,6 @@ object FormFileAnalysis: TFormFileAnalysis
           Height = 249
           Margins.Left = 0
           Margins.Top = 5
-          HotTrackFont.Charset = DEFAULT_CHARSET
-          HotTrackFont.Color = clWindowText
-          HotTrackFont.Height = -11
-          HotTrackFont.Name = 'Tahoma'
-          HotTrackFont.Style = []
           Align = alLeft
           BevelOuter = bvNone
           Color = clWindow
@@ -1057,11 +1043,6 @@ object FormFileAnalysis: TFormFileAnalysis
           Top = 5
           Width = 18
           Height = 18
-          HotTrackFont.Charset = DEFAULT_CHARSET
-          HotTrackFont.Color = clWindowText
-          HotTrackFont.Height = -11
-          HotTrackFont.Name = 'Tahoma'
-          HotTrackFont.Style = []
           FlatBorder = True
           Anchors = [akTop, akRight]
           BevelOuter = bvNone
@@ -1114,28 +1095,25 @@ object FormFileAnalysis: TFormFileAnalysis
     object TabSheetHexDump: TTabSheet
       Caption = 'Hex dump'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object EditorHexDump: TJvEditor
         Left = 0
         Top = 0
         Width = 633
         Height = 565
         Cursor = crIBeam
-        GutterWidth = 0
         RightMargin = 49
-        RightMarginColor = clSilver
         ReadOnly = True
         Completion.ItemHeight = 13
-        Completion.Interval = 800
-        Completion.ListBoxStyle = lbStandard
-        Completion.CaretChar = '|'
         Completion.CRLF = '/n'
         Completion.Separator = '='
         TabStops = '3 5'
         BackSpaceUnindents = False
         AutoIndent = False
         BracketHighlighting.StringEscape = #39#39
-        SelForeColor = clHighlightText
-        SelBackColor = clHighlight
         Align = alClient
         Color = clWindowText
         Font.Charset = DEFAULT_CHARSET
@@ -1143,10 +1121,6 @@ object FormFileAnalysis: TFormFileAnalysis
         Font.Height = -13
         Font.Name = 'Courier New'
         Font.Style = []
-        ParentColor = False
-        ParentFont = False
-        TabStop = True
-        UseDockManager = False
       end
       object PanelHexDumpProgress: TJvPanel
         AlignWithMargins = True
@@ -1158,11 +1132,6 @@ object FormFileAnalysis: TFormFileAnalysis
         Margins.Top = 0
         Margins.Right = 0
         Margins.Bottom = 0
-        HotTrackFont.Charset = DEFAULT_CHARSET
-        HotTrackFont.Color = clWindowText
-        HotTrackFont.Height = -11
-        HotTrackFont.Name = 'Tahoma'
-        HotTrackFont.Style = []
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 1
@@ -1176,11 +1145,6 @@ object FormFileAnalysis: TFormFileAnalysis
           Align = alLeft
           Caption = 'Reading file...'
           Transparent = True
-          HotTrackFont.Charset = DEFAULT_CHARSET
-          HotTrackFont.Color = clWindowText
-          HotTrackFont.Height = -11
-          HotTrackFont.Name = 'Tahoma'
-          HotTrackFont.Style = []
           ExplicitLeft = 3
         end
         object SpeedButtonCancelHexDump: TSpeedButton

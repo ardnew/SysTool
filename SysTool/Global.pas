@@ -4,7 +4,7 @@ interface
 
 uses
   // Delphi/Windows
-  Windows, Forms, Registry, Variants, Classes, Controls,
+  Windows, Forms, Registry, Variants, Classes, Controls, UITypes,
   // TPerlRegEx
   PerlRegEx
   ;

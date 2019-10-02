@@ -4,10 +4,11 @@ interface
 
 uses
   // Delphi/Windows
-  Windows, StdCtrls, Controls, ExtCtrls, Classes, Graphics, Forms, SysUtils, Dialogs,
+  Windows, StdCtrls, Controls, ExtCtrls, Classes, Graphics, Forms, SysUtils,
+  Dialogs, ImgList,
   // (J)VCL
-  JvExControls, JvLabel, Buttons, JvgSpeedButton, JvExStdCtrls, JvHtControls, JvBehaviorLabel,
-  ImgList
+  JvExControls, JvLabel, Buttons, JvgSpeedButton, JvExStdCtrls, JvHtControls,
+  JvBehaviorLabel
   ;
 
 const

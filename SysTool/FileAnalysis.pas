@@ -4,20 +4,22 @@ interface
 
 uses
   // Delphi/Windows
-  Windows, Forms, StdCtrls, Controls, FileCtrl, ExtCtrls, Classes, Types, StrUtils,
-  SysUtils, Dialogs, Messages, Buttons, ComCtrls, SyncObjs, ClipBrd, Grids,
+  Windows, Forms, StdCtrls, Controls, FileCtrl, ExtCtrls, Classes, Types,
+  StrUtils, SysUtils, Dialogs, Messages, Buttons, ComCtrls, SyncObjs, ClipBrd,
+  Grids, UITypes,
   // (J)VCL
   JvComponentBase, JvDragDrop, JvExStdCtrls, JvCombobox, JvDriveCtrls,
   JvListBox, ValEdit, JvExExtCtrls, JvExtComponent, JvPanel, JvExControls,
   JvWaitingGradient, JvExComCtrls, JvComCtrls, JvItemsPanel, JvPageList,
   JvNavigationPane, JvGroupHeader, JvExGrids, JvBitmapButton, JvSpeedButton,
-  JvSpecialProgress, JvWaitingProgress, JvProgressBar,
+  JvSpecialProgress, JvWaitingProgress, JvProgressBar, JvLabel, JvEditorCommon,
+  JvEditor,
   // Indy
   IdGlobalProtocols, idHashMessageDigest, idHash,
   // TPerlRegEx
   PerlRegEx,
   // SysTool
-  Global, JvEditorCommon, JvEditor, JvLabel
+  Global
   ;
 
 type
@@ -914,9 +916,9 @@ begin
       CurrLineLength: Integer;
       Start: Integer;
       i: Integer;
-      j: Integer;
-      SelStart: Integer;
-      SelEnd: Integer;
+//      j: Integer;
+//      SelStart: Integer;
+//      SelEnd: Integer;
 
     begin
 
